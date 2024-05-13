@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background-color: transparent;
+    position: absolute;
+}
+/* headerTopBox  */
+.headerTopBox {
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+/* headerTopBox entry topBOx  */
+.topBox {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBox {
+    color: #ADA997;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rigthBox {
+    width: 40%;
+}
+.rigthBox ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.rigthBox ul li {
+    list-style-type: none;
+    border-left: 0.5px solid  #ADA997;
+    border-right: 0.5px solid  #ADA997;
+    padding: 10px 20px;
+    cursor: pointer;
+    color:#ADA997;
+}
+.rigthBox ul li:hover {
+    color: #717FE0;
+}
+
+/* headerBottomBox */
+.headerBottomBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* headerBottomBox entry bottomBox  */
+.bottomBox {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.BottomBox img {
+    height: 50%;
+}
+.bottomBox .menuBox {
+    width: 50%;
+}
+.bottomBox .menuBox ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bottomBox .menuBox ul li {
+    list-style-type: none;
+    color:black;
+}
+.bottomBox .menuBox ul li:hover {
+    list-style-type: none;
+    cursor: pointer;
+    color:#717FE0;
+}
+.bottomBox .menuBox ul p {
+    font-size: 10px;
+    background-color: red;
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+.bottomBox .menuBox ul p:hover {
+    font-size: 10px;
+    color: black;
+}
+.bottomBox .menuBox .featuresTag {
+    color: black;
+}
+.bottomBox .menuBox .featuresTag:hover {
+    color:black;
+}
+
+/* bottomBox final  */
+/* iconBox start  */
+.iconBox {
+    width: 10%;
+    position: relative;
+    z-index: 0;
+}
+.iconBox ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.iconBox ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.iconBox nav ul p {
+    font-size: 12px;
+    background-color: #717FE0;
+    text-align: center;
+    color: white;
+    margin-left:15px;
+    margin-top: -33px;
+    height: 15px;
+    width: 10px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* header final  */
